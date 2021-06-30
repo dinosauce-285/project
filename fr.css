@@ -4,19 +4,41 @@
 body{font-size: 14px;
     background-color: white;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 250px  auto auto auto;
     grid-template-rows: auto auto auto auto auto auto auto;}
  .head{background-color: lightcoral;
 grid-column-start: 2;
 grid-column-end: 5;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+font-size: 1.5em;
+margin-right: 60px;
 }
+.head a{color:black;
+    background-color: white;
+    text-decoration: none;
+    margin: 40px 45px 20px 40px;
+    cursor: pointer;
+    height: fit-content;
+    }
+    .head a:hover{
+     opacity: 0.5;}
  .g{background-color: red;
      grid-area: 2/2/3/5;
 }
  .logo{background-color:firebrick;
     grid-area: 1/1/7/2;}
+    .logo img{width: 250px;
+        padding: 20px;
+        position: fixed;}
  .pic{background-color:blue;
     grid-area: 3/2/4/5;
+    background-image: url(https://images7.alphacoders.com/675/thumb-1920-675414.jpg);
+    background-size: cover;
+    background-position: center;
+    height:500px;
+    margin: 20px 45px 20px 40px;
 }
  .harry{background-color:gainsboro;
 grid-area: 4/2/5/3;}
