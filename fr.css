@@ -38,10 +38,13 @@ margin-right: 60px;
     background-size: cover;
     background-position: center;
     height:500px;
-    margin: 20px 45px 20px 40px;
+    margin: 20px 100px 20px 40px;
 }
  .harry{background-color:gainsboro;
-grid-area: 4/2/5/3;}
+grid-area: 4/2/5/3;
+padding-left: 40px;
+padding-top: 50px;}
+.harry img{height: 300px;}
  .hcont{background-color:green;
 grid-area: 4/3/5/5}
  .her{background-color:greenyellow;
