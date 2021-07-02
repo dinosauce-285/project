@@ -6,7 +6,7 @@ body{font-size: 14px;
     display: grid;
     grid-template-columns: 250px  auto auto auto;
     grid-template-rows: auto auto auto auto auto auto auto;}
- .head{background-color: lightcoral;
+ .head{
 grid-column-start: 2;
 grid-column-end: 5;
 display: flex;
@@ -24,15 +24,16 @@ margin-right: 60px;
     }
     .head a:hover{
      opacity: 0.5;}
- .g{background-color: red;
+ .g{
      grid-area: 2/2/3/5;
+     margin-left: 40px;
 }
- .logo{background-color:firebrick;
+ .logo{
     grid-area: 1/1/7/2;}
     .logo img{width: 250px;
         padding: 20px;
         position: fixed;}
- .pic{background-color:blue;
+ .pic{
     grid-area: 3/2/4/5;
     background-image: url(https://images7.alphacoders.com/675/thumb-1920-675414.jpg);
     background-size: cover;
@@ -40,16 +41,23 @@ margin-right: 60px;
     height:500px;
     margin: 20px 100px 20px 40px;
 }
- .harry{background-color:gainsboro;
+ .harry{
 grid-area: 4/2/5/3;
 padding-left: 40px;
-padding-top: 50px;}
+padding-top: 50px;
+padding-bottom: 40px;}
 .harry img{height: 300px;}
- .hcont{background-color:green;
-grid-area: 4/3/5/5}
- .her{background-color:greenyellow;
-grid-area: 5/2/6/4;}
- .hecont{background-color:darkcyan}
+ .hcont{
+grid-area: 4/3/5/5;
+margin: 45px 100px 20px 40px; }
+
+ .hecont{
+grid-area: 5/2/6/4;
+padding: 45px 80px 20px 40px;}
+ .her{
+grid-area: 5/4/6/5;
+margin: 40px 100px 40px 0px;}
+.her img{height: 300px;}
  .ron{background-color:skyblue;
 grid-area: 6/2/7/3;}
  .roncont{background-color: orange;
