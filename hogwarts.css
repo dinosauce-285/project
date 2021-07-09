@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+    background-image: url(https://cdn.pixabay.com/photo/2016/02/21/11/33/star-1213455_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.header {
+    grid-area: 1/2/2/3;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 1.5em;
+    margin-right: 60px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    margin: 40px 45px 20px 40px;
+    cursor: pointer;
+    height: fit-content;
+}
+
+.header a:hover {
+    opacity: 0.5;
+}
+
+.logo {
+    grid-area: 1/1/10/2
+}
+
+.logo img {
+    width: 250px;
+    padding: 20px;
+    position: fixed;
+}
+
+.g {
+    grid-area: 2/2/3/3;
+    margin: 0px 100px 40px 40px;
+    height: 1px;
+    background-color: white;
+}
+
+.pic {
+    grid-area: 3/2/4/3;
+    background-image: url(https://f7.photo.talk.zdn.vn/2360399031766443982/b971233e86a872f62bb9.jpg);
+    background-size: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+
+.p11 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 275px;
+    margin-left: 245px;
+    opacity: 0;
+}
+
+.p11:hover {
+    opacity: 1;
+    transition: 1s;
+}
+
+.p12 {
+    font-size: 0.1px;
+}
+
+.p13 {
+    background-image: url(https://i.pinimg.com/600x315/0b/9a/61/0b9a61fed086ae96f00939fd23b47e93.jpg);
+    color: black;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.trophies {
+    background-color: darkgreen;
+    grid-area: 4/2/5/3;
+}
+
+.k {
+    background-color: darksalmon;
+    grid-area: 5/2/6/3;
+}
+
+.c {
+    background-color: dimgrey;
+    grid-area: 6/2/7/3;
+}
+
+.cr {
+    background-color: fuchsia;
+    grid-area: 7/2/8/3;
+}
+
+.n {
+    background-color: gold;
+    grid-area: 8/2/9/3;
+}
+
+.r {
+    background-color: indigo;
+    grid-area: 9/2/10/3;
+}
+
+.footer {
+    background-color: lawngreen;
+    grid-area: 10/1/11/3;
+}
