@@ -6,15 +6,15 @@
     
     body {
         font-size: 14px;
-        background-color: white;
         display: grid;
         grid-template-columns: 250px auto;
-        grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
         background-image: url(https://cdn.pixabay.com/photo/2016/02/21/11/33/star-1213455_1280.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         color: white;
+        line-height: 1.5;
     }
     
     .header {
@@ -74,7 +74,7 @@
         opacity: 0;
     }
     
-    .huf:hover {
+    .huf:active {
         opacity: 1;
         transition: 1s;
     }
@@ -82,6 +82,7 @@
     .huf1 {
         font-size: 0.1px;
         color: black;
+        padding-left: 200px;
     }
     
     .hufcont {
@@ -101,15 +102,16 @@
         opacity: 0;
     }
     
-    .sly:hover {
+    .sly:active {
         opacity: 1;
         transition: 1s;
     }
     
     .sly1 {
-        padding-top: 10px;
+        padding-left: 237px;
         color: black;
         font-size: 0.1px;
+        padding-top: 10px;
     }
     
     .slycont {
@@ -125,11 +127,11 @@
         display: flex;
         flex-direction: column;
         margin-left: 130px;
-        margin-top: 180px;
+        margin-top: 190px;
         opacity: 0;
     }
     
-    .gry:hover {
+    .gry:active {
         opacity: 1;
         transition: 1s;
     }
@@ -143,19 +145,63 @@
     }
     
     .gry1 {
-        margin-top: 20px;
         color: black;
         font-size: 0.1px;
     }
     
+    .rav {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        margin-top: 170px;
+        opacity: 0;
+    }
+    
+    .rav:active {
+        opacity: 1;
+        transition: 1s;
+    }
+    
+    .rav1 {
+        background-color: black;
+        font-size: 0.1px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .ravcont {
+        display: flex;
+        background-image: url(https://i.pinimg.com/600x315/0b/9a/61/0b9a61fed086ae96f00939fd23b47e93.jpg);
+        color: black;
+        padding: 5px;
+        border-radius: 15px;
+    }
+    
     .trophies {
-        background-color: darkgreen;
+        margin: 40px 100px 20px 40px;
         grid-area: 4/2/5/3;
+        border-top: solid;
+        padding-top: 40px;
     }
     
     .k {
-        background-color: darksalmon;
+        margin: 0px 100px 40px 40px;
+        display: flex;
         grid-area: 5/2/6/3;
+        flex-direction: row;
+    }
+    
+    .k1 {
+        margin-left: 40px;
+        font-size: 1.05em;
+    }
+    
+    .k img {
+        margin-top: 10px;
+        width: 200px;
+        border: solid;
     }
     
     .c {
